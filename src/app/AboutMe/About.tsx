@@ -13,7 +13,7 @@ export default function About() {
                 </div>
                 <Link href='mailto:tkwlscjq13@naver.com' target="_blank" className="text-lg text-gray-200 mt-7">tkwlscjq13@naver.com</Link>
             </nav>
-            <main className="bg-black bg-opacity-20 md:w-4/5 w-full flex flex-col container mx-auto px-5 py-20 items-center justify-center">
+            <main className=" bg-gray-300 bg-opacity-10 md:w-4/5 w-full flex flex-col container mx-auto px-5 py-20 items-center justify-center">
                 <TypeIt className="text-3xl font-bold mt-8 mb-12 text-center"
                     options={{
                         strings: ["실패를 두려워하지 않고 항상 도전하고 배우는 개발자 홍성원입니다."],
@@ -39,6 +39,41 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+                <div className="flex flex-col items-center mt-24">
+                    <img src="/img/down.png" alt="아래 버튼" className="animate-bounce"/>
+                </div>
+                <style jsx>{`
+                    @tailwind base;
+                    @tailwind components;
+                    @tailwind utilities;
+
+                    @keyframes bounce {
+                        0% {
+                            transform: translateY(0);
+                        }
+                        30% {
+                            transform: translateY(-80px);
+                        }
+                        50% {
+                            transform: translateY(0);
+                        }
+                        60% {
+                            transform: translateY(-50px);
+                        }
+                        80% {
+                            transform: translateY(0);
+                        }
+                        90% {
+                            transform: translateY(-20px);
+                        }
+                        100% {
+                            transform: translateY(0);
+                        }
+                    }
+                    .animate-bounce {
+                        animation: bounce 2s cubic-bezier(0.280, 0.840, 0.420, 1) infinite;
+                    }
+                `}</style>
             </main>
         </section>
     );
