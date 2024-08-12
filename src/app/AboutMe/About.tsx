@@ -4,6 +4,7 @@ import Link from "next/link";
 import TypeIt from "typeit-react";
 
 export default function About() {
+    
     return(
         <section className="flex flex-col md:flex-row min-h-screen">
             <nav className="flex flex-col items-center justify-between bg-slate-500 md:w-1/5 w-full py-16">
