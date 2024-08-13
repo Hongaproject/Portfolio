@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 포트폴리오 
+>포트폴리오 용도로 제작한 웹 사이트입니다.
 
-## Getting Started
+## 프로젝트 상세
+서비스화면
 
-First, run the development server:
+### 일정
+- **시작일**: 2024-08-07
+- **종료일**: 2024-08-13
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 기술스택
+| Front-end | 
+| --- | 
+| Next JS | 
+| React | 
+| TypeScript |  
+| typeit-react |  
+| react-scroll |
+| Tailwind CSS |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 주요 기능
+- **간단한 자기소개**, **GitHub 및 Velog 링크**, **프로젝트 경험** 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 추후 일정
+- 프로젝트 추가 및 추가 내용 있을 경우 계속해서 업데이트 예정입니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 문제 해결
+- **use client** : Next JS는 서버사이드 렌더링으로 동작하기에 클라이언트에서만 동작해야 하는 코드는 use client를 사용해야 합니다.
+- **Type Err** : TypeScript를 사용해서 Type을 지정하다가 오류가 나타났으며, 배열 지정을 안 해서 나타난 오류라 해결했습니다.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 배웠던 점
+- **Next JS 사용** : Next JS가 14버전으로 업데이트가 되었다고 해서 사용해 봤으며, 13버전과 14버전의 차이점을 찾고 사용법을 학습했습니다.
+- **라이브러리 사용** : react-scroll와 typeit-react를 사용해 봤습니다. 사용자에게 시각적 효과를 주기 위해 사용했으며 사용법을 학습했습니다.
+- **Tailwind CSS** : 외부 CSS 라이브러리를 사용해서 스타일을 적용했습니다. Tailwind의 사용법을 익혔고 빠르게 진행해야 할 프로젝트에서 사용 시에 좋을 거 같습니다.
