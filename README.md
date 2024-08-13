@@ -4,6 +4,16 @@
 ## 프로젝트 상세
 서비스화면
 
+<img width="911" alt="스크린샷 2024-08-14 오전 12 31 39 1" src="https://github.com/user-attachments/assets/65fd1fd2-52e7-4ffd-92fa-6be10f8f410c">
+
+<img width="1822" alt="스크린샷 2024-08-14 오전 12 31 58" src="https://github.com/user-attachments/assets/93cdc791-0ff4-4c5e-8c37-9dbe276c2de0">
+
+<img width="911" alt="스크린샷 2024-08-14 오전 12 32 04" src="https://github.com/user-attachments/assets/7aa6bf63-b5e1-401f-840f-b22f6e71ad36">
+
+<img width="911" alt="스크린샷 2024-08-14 오전 12 32 13" src="https://github.com/user-attachments/assets/ae89d40c-46a1-431e-aa92-28a2ff8de727">
+
+<img width="911" alt="스크린샷 2024-08-14 오전 12 32 36" src="https://github.com/user-attachments/assets/d1d89ac8-f3c2-4d62-8b96-5a703640bdc9">
+
 ### 일정
 - **시작일**: 2024-08-07
 - **종료일**: 2024-08-13
