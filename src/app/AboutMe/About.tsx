@@ -48,7 +48,7 @@ export default function About() {
                 <div className="flex flex-col items-center mt-24">
                     <img src="/img/down.png" alt="아래 버튼" className="animate-bounce"/>
                 </div>
-                <div className="fixed bottom-10 right-10 z-10" onClick={moveTop}>
+                <div className="fixed bottom-10 right-0 z-10" onClick={moveTop}>
                     <img src="/img/top.png" alt="최상단으로 올라가는 화살표" className="w-14 h-14 ml-auto mr-10 rounded-full bg-slate-100 shadow-gray-500 shadow-2xl cursor-pointer"/>
                 </div>
                 <style jsx>{`
