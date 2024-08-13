@@ -18,6 +18,9 @@ export default function RootLayout({
     <html lang="ko">
       <body className={inter.className}>
         {children}
+        <h1 className="text-center text-gray-500 h-24">
+          © {new Date().getFullYear()}. Hong Seong Won. All Rights Reserved.
+        </h1>
       </body>
     </html>
   );
