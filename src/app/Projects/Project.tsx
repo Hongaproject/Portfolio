@@ -109,8 +109,8 @@ export default function Project() {
                         <div className="border-2 rounded-lg">
                             {
                                 alcoholSkills.map((skill, index) => (
-                                    <div>
-                                        <div key={index} className="py-2 border-2 pl-2 flex cursor-pointer" onClick={() => toggleAlcoholDetail(skill.title)}>
+                                    <div key={index}>
+                                        <div className="py-2 border-2 pl-2 flex cursor-pointer" onClick={() => toggleAlcoholDetail(skill.title)}>
                                             {skill.title} <img src="/img/sdown.png" alt="사용기술 내용 보여주는 이미지" className="ml-auto mr-2" />
                                         </div>
                                         {
