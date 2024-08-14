@@ -62,9 +62,9 @@ export default function Project() {
                     </span>
                     <div className="mb-5">
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="링크 이미지" className="mr-2"/>관련링크들</h2>
-                        <h3 className="text-xl mb-2">사이트 주소 : <Link href='' target="_blank" className="text-sky-500 hover:underline"></Link></h3>
+                        <h3 className="text-xl mb-2">사이트 주소 : <Link href='https://hsw-portfolio.vercel.app' target="_blank" className="text-sky-500 hover:underline">포트폴리오</Link></h3>
                         <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/Portfolio' target="_blank" className="text-sky-500 hover:underline">GitHub</Link></h3>
-                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='' target="_blank" className="text-sky-500 hover:underline"></Link></h3>
+                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='https://velog.io/@hongga/하루-3시간-코딩-포트폴리오-제작하기-최종본-배포' target="_blank" className="text-sky-500 hover:underline">Velog</Link></h3>
                     </div>
                     <div>
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/keyboard.png" alt="기술 이미지" className="mr-2"/>사용기술들</h2>
