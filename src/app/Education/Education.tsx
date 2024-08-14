@@ -41,7 +41,7 @@ export default function Education() {
 
                 `}</style>
             </main>
-            <main className="mt-20">
+            <main className="mt-20 pb-20">
                 <span className="text-gray-500 text-2xl">Education</span>
                 <h2 className="mt-6 text-4xl font-bold">ESTsoft 프론트엔드 개발자 부트캠프 오르미 1기</h2>
                 <span className="text-xl">2024/06/03 ~ 2024/10/21</span>
