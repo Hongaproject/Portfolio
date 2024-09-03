@@ -48,7 +48,7 @@ export default function Project() {
                 <h1 className="text-6xl font-bold">Project</h1>
             </div>
             <main className="mt-12">
-                <article className="lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 md:mb-0 pb-20">
+                <article className="lg:max-w-3xl lg:w-full md:mb-0 pb-20">
                     <h2 className="text-3xl font-semibold mb-4">포트폴리오</h2>
                     <img src="/img/portfolio.png" alt="포트폴리오 이미지" className="object-cover object-center rounded-3xl mb-2" />
                     <span className="block text-lg mb-5">2024/08/07 ~ 2024/08/13 (1인 프로젝트)</span>
@@ -88,7 +88,7 @@ export default function Project() {
                         </div>
                     </div>
                 </article>
-                <article className="lg:max-w-3xl lg:w-full md:w-1/2 w-5/6 md:mb-0 pb-20">
+                <article className="lg:max-w-3xl lg:w-full md:mb-0 pb-20">
                     <h2 className="text-3xl font-semibold mb-4">대한민국 모든 주류</h2>
                     <img src="/img/alcohol.png" alt="대안민국 모든 주류 이미지" className="object-cover object-center rounded-3xl mb-2" />
                     <span className="block text-lg mb-5">2024/06/24 ~ 2024/08/06 (1인 프로젝트)</span>
