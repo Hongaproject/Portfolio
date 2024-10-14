@@ -52,7 +52,7 @@ export default function Education() {
                     <span>HTML, CSS, JavaScript, React, Redux, TypeScript, GitHub, Firebase ,Figma</span>
                 </div>
                 <div className="mt-4">
-                    <h3 className="text-2xl font-bold">현재 상황 (2024/09/30) 기준</h3>
+                    <h3 className="text-2xl font-bold">현재 상황 (2024/10/15) 기준</h3>
                     <span className="text-xl">
                         현재 프론트엔드 개발자 부트캠프에 참여하고 있습니다. 아래 내용은 부트캠프에서 배웠던 내용을 정리했습니다.<br /> <br />
                         HTML : 웹 표준과 웹 접근성 준수, SEO 기법 이해, 시멘틱 마크업을 통한 구조적이고 의미 있는 HTML 문서 작성 <br />
@@ -72,8 +72,11 @@ export default function Education() {
                 <span className="block text-xl mb-5">2024/09/23 ~ (Front-End 4인)</span>
                 <span className="block text-xl mb-5">
                     <strong>요리 레시피를 알려주는 사이트</strong>입니다. 팀원들끼리 서로 아이디어를 모아서 결정했습니다. <br /><br />
-                    Pigma를 사용해서 디자인 틀을 제작했으며 React와 TypeScript를 사용해서 개발을 진행하고 있습니다. <br /><br />
-                    작업 진행도를 알기 위해 Jira를 사용해서 소통하고 있습니다.
+                    Pigma를 사용해서 디자인 틀을 제작했으며, 작업 진행도와 일정 관리를 위해 Jira를 사용하고 있습니다. 개발은 React와 TypeScript를 사용해서 진행하고 있습니다. <br /><br />
+
+                    제 역할은 회원가입, 프로필 페이지 제작, 검색 기능을 담당했습니다. 파이어베이스를 사용해서 회원가입 구현을 제작했으며, 이메일과 닉네임 중복체크 기능을 추가했습니다. <br />
+                    프로필페이지는 파이어베이스 사용자 정보를 가져와서 제작을 했습니다. 회원 정보 수정과 게시글, 좋아요 게시물을 확인할 수 있습니다. 
+                    
                 </span>
                 <div className="mb-5">
                     <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="링크 이미지" className="mr-2"/>관련링크들</h2>
