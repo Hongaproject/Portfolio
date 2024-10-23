@@ -72,17 +72,21 @@ export default function Education() {
                 <span className="block text-xl mb-5">2024/09/23 ~ (Front-End 4인)</span>
                 <span className="block text-xl mb-5">
                     <strong>요리 레시피를 알려주는 사이트</strong>입니다. 팀원들끼리 서로 아이디어를 모아서 결정했습니다. <br /><br />
-                    Pigma를 사용해서 디자인 틀을 제작했으며, 작업 진행도와 일정 관리를 위해 Jira를 사용하고 있습니다. 개발은 React와 TypeScript를 사용해서 진행하고 있습니다. <br /><br />
+                    Pigma를 사용해서 디자인 틀을 제작했으며, 작업 진행도와 일정 관리를 위해 Jira를 사용하고 있습니다. 개발은 React와 TypeScript를 사용해서 제작했습니다. <br /><br />
 
-                    제 역할은 회원가입, 프로필 페이지 제작, 검색 기능을 담당했습니다. 파이어베이스를 사용해서 회원가입 구현을 제작했으며, 이메일과 닉네임 중복체크 기능을 추가했습니다. <br />
-                    프로필페이지는 파이어베이스 사용자 정보를 가져와서 제작을 했습니다. 회원 정보 수정과 게시글, 좋아요 게시물을 확인할 수 있습니다. 
-                    
+                    제 역할은 회원가입, 프로필 페이지 제작을 담당했습니다. Firebase를 사용해서 회원가입 구현을 제작했으며, 이메일과 닉네임 중복체크 기능을 추가했습니다. <br />
+                    프로필 페이지는 Firestore를 사용하여 사용자 정보를 가져와서 제작했고, 회원 정보 수정과 게시글, 좋아요한 게시물들을 확인할 수 있는 기능을 구현했습니다.<br /><br />
+
+                    이번 프로젝트를 진행하면서 소통의 중요성을 느꼈습니다. 팀원들과 의견을 교환하고 서로의 아이디어를 조율하면서 다양한 문제를 해결할 수 있었습니다. <br />
+                    특히, 기술적인 문제나 의견 충돌이 있을 때 적극적으로 소통하며 해결하는 과정에서 소통의 중요성을 알게 되었습니다.
                 </span>
                 <div className="mb-5">
                     <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="링크 이미지" className="mr-2"/>관련링크들</h2>
-                    <h3 className="text-xl mb-2">사이트 주소 : <Link href='' target="_blank" className="text-sky-500 hover:underline"></Link></h3>
+                    <h3 className="text-xl mb-2">사이트 주소 : <Link href='https://recipeproject-theta.vercel.app/' target="_blank" className="text-sky-500 hover:underline">레시피 연구소</Link></h3>
                     <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/recipe_project' target="_blank" className="text-sky-500 hover:underline">GitHub</Link></h3>
-                    <h3 className="text-xl mb-2">블로그 주소 : <Link href='' target="_blank" className="text-sky-500 hover:underline"></Link></h3>
+                </div>
+                <div>
+                    
                 </div>
             </main>
         </section>

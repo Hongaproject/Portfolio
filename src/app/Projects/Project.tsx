@@ -18,7 +18,7 @@ export default function Project() {
     useEffect(() => {
         fetch('/db/alcohol.json')
             .then(response => response.json())
-            .then((data: {skills: Skill[]}) => setAlcoholSkills(data.skills))
+            .then((data: {alcohol: Skill[]}) => setAlcoholSkills(data.alcohol))
             .catch(error => console.error('Error fetching the JSON data:', error));
 
         fetch('/db/portfolio.json')
