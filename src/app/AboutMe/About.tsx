@@ -11,14 +11,14 @@ export default function About() {
     
     return(
         <section className="flex flex-col md:flex-row min-h-screen">
-            <nav className="flex flex-col items-center justify-between bg-slate-500 md:w-1/5 w-full py-16">
+            <nav className="flex flex-col items-center justify-between bg-slate-500 md:w-1/5 w-full py-16" role="navigation">
                 <div className="flex flex-col items-center gap-7">
-                    <Link href='https://github.com/Hongaproject' target="_blank" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">GitHub</Link>
-                    <Link href='https://velog.io/@hongga/posts' target="_blank" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">Velog</Link>
+                    <Link href='https://github.com/Hongaproject' target="_blank" aria-label="GitHub 프로필" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">GitHub</Link>
+                    <Link href='https://velog.io/@hongga/posts' target="_blank" aria-label="Velog 블로그" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">Velog</Link>
                 </div>
-                <Link href='mailto:tkwlscjq13@naver.com' target="_blank" className="text-lg text-gray-200 mt-7">tkwlscjq13@naver.com</Link>
+                <Link href='mailto:tkwlscjq13@naver.com' target="_blank" aria-label="이메일 보내기" className="text-lg text-gray-200 mt-7">tkwlscjq13@naver.com</Link>
             </nav>
-            <main className=" bg-gray-300 bg-opacity-10 md:w-4/5 w-full flex flex-col container mx-auto px-5 py-20 items-center justify-center">
+            <main className="bg-gray-300 bg-opacity-10 md:w-4/5 w-full flex flex-col container mx-auto px-5 py-20 items-center justify-center" role="main">
                 <TypeIt className="text-3xl font-bold mt-8 mb-14 text-center text-gray-500"
                     options={{
                         strings: ["실패를 두려워하지 않고 항상 도전하고 배우는 개발자 홍성원입니다."],
@@ -26,7 +26,7 @@ export default function About() {
                         waitUntilVisible: true,
                     }} 
                 />
-                <div className="flex flex-col md:flex-row items-center">
+                <article className="flex flex-col md:flex-row items-center">
                     <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
                         <img src="/img/photo.jpg" alt="프로필 사진" className="object-cover object-center rounded-3xl"/> 
                     </div>
@@ -44,11 +44,11 @@ export default function About() {
                         </p>
                     </div>
                     
-                </div>
+                </article>
                 <div className="flex flex-col items-center mt-24">
                     <img src="/img/down.png" alt="아래 버튼" className="animate-bounce"/>
                 </div>
-                <div className="fixed bottom-10 right-0 z-10" onClick={moveTop}>
+                <div className="fixed bottom-10 right-0 z-10" role="button" onClick={moveTop}>
                     <img src="/img/top.png" alt="최상단으로 올라가는 화살표" className="w-14 h-14 ml-auto mr-10 rounded-full bg-slate-100 shadow-gray-500 shadow-2xl cursor-pointer"/>
                 </div>
                 <style jsx>{`
