@@ -43,13 +43,12 @@ export default function About() {
                             블로그에도 주 1회 토이 프로젝트 및 공부 내용을 포스팅하고 있습니다.</strong>  
                         </p>
                     </div>
-                    
                 </article>
                 <div className="flex flex-col items-center mt-24">
-                    <img src="/img/down.png" alt="아래 버튼" className="animate-bounce"/>
+                    <img src="/img/down.png" alt="아래로 스크롤 안내" className="animate-bounce"/>
                 </div>
                 <div className="fixed bottom-10 right-0 z-10" role="button" onClick={moveTop}>
-                    <img src="/img/top.png" alt="최상단으로 올라가는 화살표" className="w-14 h-14 ml-auto mr-10 rounded-full bg-slate-100 shadow-gray-500 shadow-2xl cursor-pointer"/>
+                    <img src="/img/top.png" alt="최상단으로 이동" className="w-14 h-14 ml-auto mr-10 rounded-full bg-slate-100 shadow-gray-500 shadow-2xl cursor-pointer"/>
                 </div>
                 <style jsx>{`
                     @tailwind base;
