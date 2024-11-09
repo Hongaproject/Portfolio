@@ -80,8 +80,8 @@ export default function Project() {
                     <div className="mb-5">
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="" aria-hidden="true" className="mr-2"/>관련 링크들</h2>
                         <h3 className="text-xl mb-2">사이트 주소 : <Link href='https://hsw-portfolio.vercel.app' target="_blank" aria-label="포트폴리오 사이트로 이동" className="text-sky-500 hover:underline">포트폴리오</Link></h3>
-                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/Portfolio' target="_blank" aria-label="GitHub 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
-                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='https://velog.io/@hongga/하루-3시간-코딩-포트폴리오-제작하기-최종본-배포' target="_blank" aria-label="Velog 사이트로 이동" className="text-sky-500 hover:underline">Velog</Link></h3>
+                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/Portfolio' target="_blank" aria-label="깃허브 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
+                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='https://velog.io/@hongga/하루-3시간-코딩-포트폴리오-제작하기-최종본-배포' target="_blank" aria-label="벨로그 사이트로 이동" className="text-sky-500 hover:underline">Velog</Link></h3>
                     </div>
                     <div>
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/keyboard.png" alt="" aria-hidden="true" className="mr-2"/>사용 기술들</h2>
@@ -119,8 +119,8 @@ export default function Project() {
                     <div className="mb-5">
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="" aria-hidden="true" className="mr-2"/>관련 링크들</h2>
                         <h3 className="text-xl mb-2">사이트 주소 : <Link href='https://korea-alcohol-drinks.vercel.app/' target="_blank" aria-label="대한민국 모든 주류 사이트로 이동" className="text-sky-500 hover:underline">대한민국 모든 주류</Link></h3>
-                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/AlcoholDrinks' target="_blank" aria-label="GitHub 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
-                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='https://velog.io/@hongga/%ED%95%98%EB%A3%A8-3%EC%8B%9C%EA%B0%84-%EC%BD%94%EB%94%A9-%EC%A3%BC%EB%A5%98-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0-%EC%B5%9C%EC%A2%85%EB%B3%B8' target="_blank" aria-label="Velog 사이트로 이동" className="text-sky-500 hover:underline">Velog</Link></h3>
+                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/AlcoholDrinks' target="_blank" aria-label="깃허브 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
+                        <h3 className="text-xl mb-2">블로그 주소 : <Link href='https://velog.io/@hongga/%ED%95%98%EB%A3%A8-3%EC%8B%9C%EA%B0%84-%EC%BD%94%EB%94%A9-%EC%A3%BC%EB%A5%98-%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%9C%EC%9E%91%ED%95%98%EA%B8%B0-%EC%B5%9C%EC%A2%85%EB%B3%B8' target="_blank" aria-label="벨로그 사이트로 이동" className="text-sky-500 hover:underline">Velog</Link></h3>
                     </div>
                     <div>
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/keyboard.png" alt="" aria-hidden="true" className="mr-2"/>사용 기술들</h2>
@@ -161,7 +161,7 @@ export default function Project() {
                     <div className="mb-5">
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/link.png" alt="" aria-hidden="true"  className="mr-2"/>관련 링크들</h2>
                         <h3 className="text-xl mb-2">사이트 주소 : <Link href='https://recipeproject-theta.vercel.app/' target="_blank" aria-label="레시피 연구소 사이트로 이동" className="text-sky-500 hover:underline">레시피 연구소</Link></h3>
-                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/recipe_project' target="_blank" aria-label="GitHub 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
+                        <h3 className="text-xl mb-2">깃허브 주소 : <Link href='https://github.com/Hongaproject/recipe_project' target="_blank" aria-label="깃허브 사이트로 이동" className="text-sky-500 hover:underline">GitHub</Link></h3>
                     </div>
                     <div>
                         <h2 className="text-2xl mb-3 font-bold flex items-center"><img src="/img/keyboard.png" alt="" aria-hidden="true" className="mr-2"/>사용 기술들</h2>

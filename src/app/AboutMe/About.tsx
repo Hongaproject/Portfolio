@@ -13,8 +13,8 @@ export default function About() {
         <section className="flex flex-col md:flex-row min-h-screen">
             <nav className="flex flex-col items-center justify-between bg-slate-500 md:w-1/5 w-full py-16" role="navigation">
                 <div className="flex flex-col items-center gap-7">
-                    <Link href='https://github.com/Hongaproject' target="_blank" aria-label="GitHub 프로필" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">GitHub</Link>
-                    <Link href='https://velog.io/@hongga/posts' target="_blank" aria-label="Velog 블로그" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">Velog</Link>
+                    <Link href='https://github.com/Hongaproject' target="_blank" aria-label="깃허브 사이트로 이동" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">GitHub</Link>
+                    <Link href='https://velog.io/@hongga/posts' target="_blank" aria-label="벨로그 사이트로 이동" className="text-4xl font-bold text-white hover:text-yellow-500 transition-colors duration-500 ease-in-out">Velog</Link>
                 </div>
                 <Link href='mailto:tkwlscjq13@naver.com' target="_blank" aria-label="이메일 보내기" className="text-lg text-gray-200 mt-7">tkwlscjq13@naver.com</Link>
             </nav>
