@@ -56,14 +56,15 @@ export default function About() {
           }}
         />
         <article className="flex flex-col md:flex-row items-center">
-          <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
+          <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               src="/img/photo.jpg"
               alt="프로필 사진"
               className="object-cover object-center rounded-3xl"
             />
           </div>
-          <div className="flex flex-col md:items-start md:text-left items-center text-center">
+
+          <div className="flex flex-col md:items-start md:text-left items-center text-center max-w-2xl px-4 md:px-8">
             <p className="leading-relaxed text-xl">
               처음 개발을 접했을 때,{" "}
               <strong>
@@ -80,8 +81,8 @@ export default function About() {
               <br />
               <br />
               새로운 기능이나 기술을 접할 때마다{" "}
-              <strong>단순히 구현하는 것에 그치지 않고</strong>, <br />더
-              효율적인 방법은 없는지 고민하며 개발하고 있습니다.
+              <strong>단순히 구현하는 것에 그치지 않고</strong>, <br />
+              더 효율적인 방법은 없는지 고민하며 개발하고 있습니다.
               <br />
               특히 사용자가 웹 서비스를 이용할 때{" "}
               <strong>

@@ -89,7 +89,7 @@ export default function Career() {
 
           <p className="mt-6 text-xl font-semibold">Tech</p>
           <p className="text-lg">
-            Next.js(App Router) · Electron · TypeScript · Nodemailer · ExcelJS
+            Next.js · Electron · TypeScript · Nodemailer · ExcelJS
           </p>
         </article>
 
