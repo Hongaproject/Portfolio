@@ -78,18 +78,6 @@ export default function Education() {
           </h3>
           <p className="mt-2 text-xl">2024.06 ~ 2024.10</p>
         </article>
-        <article>
-          <h3 className="mt-6 text-4xl font-bold">한남대학교</h3>
-          <p className="mt-2 text-xl">2017.03 ~ 2023.02 정보통신공학과 졸업</p>
-        </article>
-        <article>
-          <h3 className="mt-6 text-4xl font-bold">육군 병장 만기 전역</h3>
-          <p className="mt-2 text-xl">2018.08 ~ 2020.04 유선장비수리병</p>
-        </article>
-        <article>
-          <h3 className="mt-6 text-4xl font-bold">대전 괴정고등학교</h3>
-          <p className="mt-2 text-xl">2014.03 ~ 2017.02 자연계 졸업</p>
-        </article>
       </section>
     </main>
   );
