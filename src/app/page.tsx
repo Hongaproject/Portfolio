@@ -4,9 +4,9 @@ import Section from "./Section/Section";
 export default function Home() {
 
   return (
-    <div>
+    <main>
       <About />
       <Section />
-    </div>
+    </main>
   );
 }

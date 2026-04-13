@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Archiving() {
   return (
@@ -8,16 +9,18 @@ export default function Archiving() {
           Archiving
         </h1>
       </header>
-      <main className="mt-12" role="main">
+      <div className="mt-12">
         <article aria-labelledby="github-heading">
           <h2 id="github-heading" className="text-3xl font-semibold mb-4">
             GitHub
           </h2>
           <h3 className="text-xl mb-3 flex items-center">
-            <img
+            <Image
               src="/img/link.png"
               alt=""
               aria-hidden="true"
+              width={20}
+              height={20}
               className="mr-2"
             />
             깃허브 주소 :{" "}
@@ -46,10 +49,12 @@ export default function Archiving() {
             Velog
           </h2>
           <h3 className="text-xl mb-3 flex items-center">
-            <img
+            <Image
               src="/img/link.png"
               alt=""
               aria-hidden="true"
+              width={20}
+              height={20}
               className="mr-2"
             />
             블로그 주소 :{" "}
@@ -75,7 +80,7 @@ export default function Archiving() {
             <li>지식 공유를 통한 선한 영향력 선사</li>
           </ul>
         </article>
-      </main>
+      </div>
     </section>
   );
 }

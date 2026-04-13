@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import TypeIt from "typeit-react";
 
 export default function About() {
@@ -41,9 +42,9 @@ export default function About() {
           tkwlscjq13@naver.com
         </Link>
       </nav>
-      <main
+      <section
         className="bg-gray-300 bg-opacity-10 md:w-4/5 w-full flex flex-col container mx-auto px-5 py-20 items-center justify-center"
-        role="main"
+        aria-label="소개 섹션"
       >
         <TypeIt
           className="text-3xl font-bold mt-8 mb-14 text-center text-gray-500"
@@ -57,9 +58,11 @@ export default function About() {
         />
         <article className="flex flex-col md:flex-row items-center">
           <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
+            <Image
               src="/img/photo.jpg"
               alt="프로필 사진"
+              width={420}
+              height={520}
               className="object-cover object-center rounded-3xl"
             />
           </div>
@@ -104,9 +107,11 @@ export default function About() {
           </div>
         </article>
         <div className="flex flex-col items-center mt-24">
-          <img
+          <Image
             src="/img/down.png"
             alt="아래로 스크롤 안내"
+            width={48}
+            height={48}
             className="animate-bounce"
           />
         </div>
@@ -115,9 +120,11 @@ export default function About() {
           role="button"
           onClick={moveTop}
         >
-          <img
+          <Image
             src="/img/top.png"
             alt="최상단으로 이동"
+            width={56}
+            height={56}
             className="w-14 h-14 ml-auto mr-10 rounded-full bg-slate-100 shadow-gray-500 shadow-2xl cursor-pointer"
           />
         </div>
@@ -150,10 +157,10 @@ export default function About() {
             }
           }
           .animate-bounce {
-            animation: bounce 2s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
+            animation: bounce 6s cubic-bezier(0.28, 0.84, 0.42, 1) infinite;
           }
         `}</style>
-      </main>
+      </section>
     </section>
   );
 }

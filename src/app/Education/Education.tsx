@@ -16,9 +16,8 @@ export default function Education() {
   ];
 
   return (
-    <main
+    <section
       className="min-h-screen"
-      role="main"
       aria-labelledby="skills-education-heading"
     >
       <header className="border-b-8 pb-5 border-yellow-400">
@@ -79,6 +78,6 @@ export default function Education() {
           <p className="mt-2 text-xl">2024.06 ~ 2024.10</p>
         </article>
       </section>
-    </main>
+    </section>
   );
 }

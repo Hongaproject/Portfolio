@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 interface Skill {
@@ -70,7 +71,7 @@ export default function Project() {
           Project
         </h1>
       </header>
-      <main className="mt-12" role="main">
+      <div className="mt-12">
         <article
           className="lg:max-w-3xl lg:w-full md:mb-0 pb-20"
           aria-labelledby="portfolio-heading"
@@ -78,9 +79,11 @@ export default function Project() {
           <h2 id="portfolio-heading" className="text-3xl font-semibold mb-4">
             포트폴리오
           </h2>
-          <img
+          <Image
             src="/img/portfolio.png"
             alt="포트폴리오 사이트의 스크린샷"
+            width={1200}
+            height={675}
             className="object-cover object-center rounded-3xl mb-2"
           />
           <span className="block text-lg mb-5">
@@ -100,10 +103,12 @@ export default function Project() {
           </span>
           <div className="mb-5">
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/link.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               관련 링크들
@@ -144,10 +149,12 @@ export default function Project() {
           </div>
           <div>
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/keyboard.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               사용 기술들
@@ -162,10 +169,12 @@ export default function Project() {
                     onClick={() => togglePortfolioDetail(skill.title)}
                   >
                     {skill.title}{" "}
-                    <img
+                    <Image
                       src="/img/sdown.png"
                       alt=""
                       aria-hidden="true"
+                      width={20}
+                      height={20}
                       className="ml-auto mr-2"
                     />
                   </div>
@@ -186,9 +195,11 @@ export default function Project() {
           <h2 id="alcohol-heading" className="text-3xl font-semibold mb-4">
             대한민국 모든 주류
           </h2>
-          <img
+          <Image
             src="/img/alcohol.png"
             alt="대한민국 모든 주류 사이트의 스크린샷"
+            width={1200}
+            height={675}
             className="object-cover object-center rounded-3xl mb-2"
           />
           <span className="block text-lg">
@@ -219,10 +230,12 @@ export default function Project() {
           </span>
           <div className="mb-5">
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/link.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               관련 링크들
@@ -263,10 +276,12 @@ export default function Project() {
           </div>
           <div>
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/keyboard.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               사용 기술들
@@ -279,10 +294,12 @@ export default function Project() {
                     onClick={() => toggleAlcoholDetail(skill.title)}
                   >
                     {skill.title}{" "}
-                    <img
+                    <Image
                       src="/img/sdown.png"
                       alt=""
                       aria-hidden="true"
+                      width={20}
+                      height={20}
                       className="ml-auto mr-2"
                     />
                   </div>
@@ -303,9 +320,11 @@ export default function Project() {
           <h2 id="recipe-heading" className="text-3xl font-semibold mb-4">
             레시피 연구소
           </h2>
-          <img
+          <Image
             src="/img/recipe.png"
             alt="레시피 연구소 사이트의 스크린샷"
+            width={1200}
+            height={675}
             className="object-cover object-center rounded-3xl mb-2"
           />
           <span className="block text-lg mb-5">
@@ -336,10 +355,12 @@ export default function Project() {
           </span>
           <div className="mb-5">
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/link.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               관련 링크들
@@ -369,10 +390,12 @@ export default function Project() {
           </div>
           <div>
             <h2 className="text-2xl mb-3 font-bold flex items-center">
-              <img
+              <Image
                 src="/img/keyboard.png"
                 alt=""
                 aria-hidden="true"
+                width={20}
+                height={20}
                 className="mr-2"
               />
               사용 기술들
@@ -387,10 +410,12 @@ export default function Project() {
                     onClick={() => toggleRecipeDetail(skill.title)}
                   >
                     {skill.title}{" "}
-                    <img
+                    <Image
                       src="/img/sdown.png"
                       alt=""
                       aria-hidden="true"
+                      width={20}
+                      height={20}
                       className="ml-auto mr-2"
                     />
                   </div>
@@ -404,7 +429,7 @@ export default function Project() {
             </div>
           </div>
         </article>
-      </main>
+      </div>
     </section>
   );
 }

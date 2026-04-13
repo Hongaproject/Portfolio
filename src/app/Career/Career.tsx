@@ -9,7 +9,7 @@ export default function Career() {
         </h1>
       </header>
 
-      <main className="mt-12">
+      <div className="mt-12">
         <h2 className="text-gray-500 text-3xl">
           델타이에스 2024.12 ~ (재직 중)
         </h2>
@@ -39,7 +39,7 @@ export default function Career() {
           <h4 className="mt-6 font-bold text-xl">주요 업무</h4>
           <ul className="list-disc pl-8 mt-2 space-y-2 text-lg">
             <li>Next.js 기반 기업 홈페이지 UI/컴포넌트 개발 및 서비스 구축</li>
-            <li>Firebase 연동 문의 시스템 및 관리자 데이터 대시보드 개발</li>
+            <li>Firebase 연동 문의 시스템 및 관리자 대시보드 개발</li>
             <li>Google Analytics / Calendar / Drive API 연동</li>
             <li>실시간 채팅 및 이메일 알림 자동화 기능 개발</li>
             <li>Cloudinary CDN 기반 이미지 관리 및 성능 최적화</li>
@@ -50,7 +50,6 @@ export default function Career() {
           <ul className="list-disc pl-8 mt-2 space-y-2 text-lg">
             <li>정적 사이트 → 서비스형 구조 전환으로 유지보수 효율 개선</li>
             <li>이미지 로딩 및 페이지 성능 최적화 구조 구축</li>
-            <li>관리자 콘텐츠 관리 자동화 환경 구축</li>
           </ul>
 
           <p className="mt-6 text-xl font-semibold">Tech</p>
@@ -118,8 +117,7 @@ export default function Career() {
           <ul className="list-disc pl-8 mt-2 space-y-2 text-lg">
             <li>문서 승인 프로세스 디지털 전환</li>
             <li>
-              Firebase 인덱스 및 캐싱 전략으로 조회 성능 개선 및 클라우드 비용
-              최적화
+              Firebase 인덱스 및 캐싱 조회 성능 개선 및 클라우드 비용 최적화
             </li>
             <li>조직 업무 흐름 중앙화</li>
           </ul>
@@ -130,7 +128,7 @@ export default function Career() {
             · Nodemailer
           </p>
         </article>
-      </main>
+      </div>
     </section>
   );
 }

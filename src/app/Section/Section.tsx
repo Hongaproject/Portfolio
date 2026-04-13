@@ -96,7 +96,7 @@ export default function Section() {
           </Link>
         </div>
       </nav>
-      <main className="md:w-4/5 w-full flex flex-col container mx-auto px-10 py-20">
+      <div className="md:w-4/5 w-full flex flex-col container mx-auto px-10 py-20">
         <Element name="skillEducation" aria-label="사용 기술 및 교육 섹션">
           <Education />
         </Element>
@@ -109,7 +109,7 @@ export default function Section() {
         <Element name="project" aria-label="프로젝트 섹션">
           <Project />
         </Element>
-      </main>
+      </div>
     </section>
   );
 }
