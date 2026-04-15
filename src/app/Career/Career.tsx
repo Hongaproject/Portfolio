@@ -41,7 +41,7 @@ export default function Career() {
             <li>Next.js 기반 기업 홈페이지 UI/컴포넌트 개발 및 서비스 구축</li>
             <li>Firebase 연동 문의 시스템 및 관리자 대시보드 개발</li>
             <li>Google Analytics / Calendar / Drive API 연동</li>
-            <li>실시간 채팅 및 이메일 알림 자동화 기능 개발</li>
+            <li>문의 채팅 및 이메일 알림 자동화 기능 개발</li>
             <li>Cloudinary CDN 기반 이미지 관리 및 성능 최적화</li>
             <li>SEO 구조 개선 및 검색엔진 노출 최적화</li>
           </ul>
