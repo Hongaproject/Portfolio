@@ -84,9 +84,19 @@ export default function Career() {
       </header>
 
       <div className="mt-12">
-        <h2 className="text-gray-500 text-3xl">
-          델타이에스 2024.12 ~ (재직 중)
-        </h2>
+        <div className="mb-16">
+          <h2 className="text-gray-500 text-3xl">
+            HB디지털이노베이션 2026.07 ~ (재직중)
+          </h2>
+          <p className="mt-2 text-lg font-bold">
+            한빛자산관리대부그룹 계열 금융IT 서비스기업
+          </p>
+          <p className="mt-1 text-lg font-bold">
+            채권관리 업무 운영 및 업무 시스템 개발·개선 담당
+          </p>
+        </div>
+
+        <h2 className="text-gray-500 text-3xl">델타이에스 2025.01 ~ 2026.07</h2>
         <p className="mt-2 text-lg">
           &quot;CAE/CFD 솔루션 판매 및 엔지니어링 컨설팅 기업&quot;
         </p>
